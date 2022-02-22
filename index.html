@@ -4,10 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="styles.css">
     <title>Admin Dashboard</title>
 </head>
 <body>
+    <div class="container">
+
+        <div class="sidebar">
+            <div class="logo"><h2><i class="material-icons md-35">grid_view</i>Dashboard</h2></div>
+
+            <div class="main">
+                <a href="">
+                    <h3><i class="material-icons">home</i>Home</h3>
+                </a>
+                <a href="">
+                    <h3><i class="material-icons">person</i>Profile</h3>
+                </a>
+                <a href="">
+                    <h3><i class="material-icons">history</i>History</h3>
+                </a>
+                <a href="">
+                    <h3><i class="material-icons">email</i>Messages</h3>
+                </a>
+                <a href="">
+                    <h3><i class="material-icons">task</i>Tasks</h3>
+                </a>
+                <a href="">
+                    <h3><i class="material-icons">group</i>Communities</h3>
+                </a>
+            </div>
+
+            <div class="sub">
+                <a href="">
+                    <h3><i class="material-icons">settings</i>Settings</h3>
+                </a>
+                <a href="">
+                    <h3><i class="material-icons">help</i>Support</h3>
+                </a>
+                <a href="">
+                    <h3><i class="material-icons">security</i>Privacy</h3>
+                </a>
+            </div>
+        </div>
+
+        <div class="header">
+            <div class="header-content">
+                <div class="search">
+                    <div class="left">
+                        <i class="material-icons">search</i>
+                        <input type="search" name="search" id="search">
+                    </div>
+                    <div class="right">
+                        <i class="material-icons black">notifications_active</i>
+                        <img id="avatar" src="avatar.jpg" alt="Avatar">
+                        <p id="name">Morgan Stanley</p>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <div class="profile-column av">
+                        <img id="avatar-large" src="avatar.jpg" alt="Avatar">
+                    </div>
+                    <div class="profile-column name">
+                        <p class="greeting">Hi there,</p>
+                        <h4>Morgan Stanley (@morgan)</h4>
+                    </div>
+                    
+                    <div class="profile-column button">
+                        <button>New</button>
+                    </div>
+                    <div class="profile-column button">
+                        <button>Upload</button>
+                    </div>
+                    <div class="profile-column button">
+                        <button>Share</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     
+        <div class="main-content"></div>
+    </div>
 </body>
 </html>
